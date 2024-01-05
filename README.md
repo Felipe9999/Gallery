@@ -1,3 +1,5 @@
+This is a fork of Fossify Gallery meant to allow me to use it on a very old app. Consider everything to be broken and note that I will probably never fix any bugs or update the fork, ever. Go check Fossify Gallery instead https://github.com/FossifyOrg/Gallery
+
 # Fossify Gallery
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
