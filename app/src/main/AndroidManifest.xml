@@ -3,6 +3,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:installLocation="auto">
 
+    <!--hacky way to ignore minimum api-->
+    <uses-sdk
+        tools:overrideLibrary="org.fossify.commons, com.davemorrissey.labs.subscaleview"/>
+
     <!-- override the android:maxSdkVersion="28" from PhotoEditorSDK with some higher number -->
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
