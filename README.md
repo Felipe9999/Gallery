@@ -1,3 +1,5 @@
+This is a fork of Fossify Gallery meant to allow me to use it on a very old phone. Consider everything to be broken and note that I will probably never fix any bugs or update the fork, ever. Go check Fossify Gallery instead https://github.com/FossifyOrg/Gallery
+
 # Fossify Gallery
 
 <img alt="Logo" src="graphics/icon.webp" width="120" />
@@ -32,7 +34,7 @@ JPEG, PNG, MP4, MKV, RAW, SVG, GIF, videos, and more – we've got your memories
 
 Experience the beauty of intuitive material design with dynamic themes. Want more? Dive into custom themes and make your gallery truly unique.
 
-<div style="display:flex;">
+<div align="center">
 <img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/1_en-US.png" width="30%">
 <img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/2_en-US.png" width="30%">
 <img alt="App image" src="fastlane/metadata/android/en-US/images/phoneScreenshots/3_en-US.png" width="30%">
