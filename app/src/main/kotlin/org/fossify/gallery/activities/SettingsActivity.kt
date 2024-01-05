@@ -6,6 +6,10 @@ import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
+import androidx.appcompat.widget.Toolbar
+import androidx.core.view.ScrollingView
+import androidx.core.widget.NestedScrollView
+import androidx.recyclerview.widget.RecyclerView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.fossify.commons.dialogs.*
@@ -40,7 +44,8 @@ class SettingsActivity : SimpleActivity() {
         setContentView(binding.root)
 
         updateMaterialActivityViews(binding.settingsCoordinator, binding.settingsHolder, useTransparentNavigation = true, useTopSearchMenu = false)
-        setupMaterialScrollListener(binding.settingsNestedScrollview, binding.settingsToolbar)
+        //setupMaterialScrollListener(binding.settingsNestedScrollview, binding.settingsToolbar)
+        //TODO: Find a way to implement above functionality in a way that works on my ancient phone
     }
 
     override fun onResume() {
