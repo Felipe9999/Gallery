@@ -1,0 +1,2 @@
+* Suppression de la bibliothèque panoramique propriétaire
+* Ajout de quelques traductions
